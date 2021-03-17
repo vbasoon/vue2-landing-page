@@ -2,8 +2,10 @@
     <div>
         <router-link class="navlink" to="/">Home</router-link>
         <router-link class="navlink" to="/about">About</router-link>
-        <slot>Slot</slot>
-        <slot name='H3'></slot>
+        <transition name="fade">
+            <slot>Slot</slot>
+            <slot name='H3'></slot>
+        </transition>
         <h1>I am footer</h1>
     </div>
 </template>
@@ -27,6 +29,17 @@ export default {
     text-decoration: underline;
     
 }
+.fade-enter-active, .fade-leave-active {
+    transition-property: opacity;
+    transition-duration: .25s;
+}
 
+.fade-enter-active {
+    transition-delay: .25s;
+}
+
+.fade-enter, .fade-leave-active {
+    opacity: 0;
+}
 
 </style>
