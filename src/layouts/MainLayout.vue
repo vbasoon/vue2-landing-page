@@ -1,33 +1,29 @@
 <template>
     <div>
-        
+        <Header/>
         <transition name="fade">
             <slot>Slot</slot>
             <slot name='H3'></slot>
         </transition>
-        <h1>I am footer</h1>
+        <Footer/>
     </div>
 </template>
 
 <script>
+import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
 export default {
     name: 'MainLayout',
+    components: {
+        Header,
+        Footer,
+    }
 
 }
 </script>
 
 <style scoped>
-.navlink {
-    margin-left: 10px;
-    text-decoration: none;
-    font-size: 20px;
-}
 
-.navlink:hover {
-    
-    text-decoration: underline;
-    
-}
 .fade-enter-active, .fade-leave-active {
     transition-property: opacity;
     transition-duration: .25s;

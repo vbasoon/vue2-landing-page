@@ -12,5 +12,15 @@ export default {
 </script>
 
 <style>
+.navlink {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
 
+.navlink:hover {
+    
+    text-decoration: underline;
+    
+}
 </style>

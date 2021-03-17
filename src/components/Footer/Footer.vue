@@ -1,5 +1,5 @@
 <template>
-  
+  <div><h1>I am footer</h1></div>
 </template>
 
 <script>
