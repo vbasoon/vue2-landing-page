@@ -1,7 +1,6 @@
 <template>
     <div>
-        <router-link class="navlink" to="/">Home</router-link>
-        <router-link class="navlink" to="/about">About</router-link>
+        
         <transition name="fade">
             <slot>Slot</slot>
             <slot name='H3'></slot>
