@@ -2,8 +2,16 @@
   <div>
   <h1>Advert</h1>
   <main-layout>
+    <div>
     <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+  </div>
   </main-layout>
+  
 </div> 
 </template>
 
