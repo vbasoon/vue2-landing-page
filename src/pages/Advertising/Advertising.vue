@@ -3,12 +3,12 @@
   <h1>Advert</h1>
   <main-layout>
     <div>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
+    <Card 
+      v-for="card in cards"
+      :key="card.id"
+      :title="card.title"
+    />
+    
   </div>
   </main-layout>
   
