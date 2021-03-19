@@ -1,8 +1,11 @@
 <template>
-  <div>
+  <div class="header">
+      <div class="logo">Logo</div>
+      <div class="header-nav">
       <router-link class="navlink" to="/">Home</router-link>
       <router-link class="navlink" to="/about">About</router-link>
       <router-link class="navlink" to="/advert">Adveritising</router-link>
+    </div>
   </div>
 </template>
 
@@ -12,7 +15,7 @@ export default {
 }
 </script>
 
-<style>
+<style >
 .navlink {
     margin-left: 10px;
     text-decoration: none;
