@@ -1,11 +1,11 @@
 <template>
   <div class="header">
       <div class="logo">Logo</div>
-      <div class="header-nav">
+      <nav class="header-nav">
       <router-link class="navlink" to="/">Home</router-link>
       <router-link class="navlink" to="/about">About</router-link>
       <router-link class="navlink" to="/advert">Adveritising</router-link>
-    </div>
+    </nav>
   </div>
 </template>
 
