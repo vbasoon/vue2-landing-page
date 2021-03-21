@@ -1,8 +1,7 @@
 <template>
 <div>
-
-  <h1>Home Page</h1>
  <main-layout>
+   <h1>Home Page</h1>
     <h2>Main Slot</h2>
     <h3 slot='H3'>H3</h3>
     </main-layout> 

@@ -16,5 +16,11 @@ export default {
 </script>
 
 <style>
+.card {
+  width: 200px;
+  height: 300px;
+  border: 2px solid black;
+  margin-left: 10px;
+}
 
 </style>

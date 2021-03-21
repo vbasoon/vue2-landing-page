@@ -1,7 +1,7 @@
 <template>
 <div>
-  <h1>About Page</h1>
   <main-layout>
+    <h1>About Page</h1>
     <h2>Main Slot</h2>
     </main-layout> 
 </div>
